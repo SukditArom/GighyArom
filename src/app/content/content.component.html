@@ -1,0 +1,12 @@
+<div class="row mt-4" *ngIf="gighy">
+  <div class="col-4" *ngFor="let g of gighy.data">
+    <div class="card" >
+      <img class="card-img-top" src="{{g.images.fixed_height.url}}" alt="Card image cap">
+      <div class="card-body">
+        <h4 class="card-title text-truncate">{{g.title}}</h4>
+        <p class="card-text">{{ g.import_datetime }}</p>
+        <a href="{{ g.url }}" target="_blank" class="btn btn-primary">Go Gihy</a>
+      </div>
+    </div>
+  </div>
+</div>

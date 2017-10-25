@@ -1,0 +1,26 @@
+.logo{
+    font-size: 35px;
+    color: rgb(12, 122, 124);
+}
+.headbar{
+    background-color: LightGraygrey;
+}
+.subheader {
+    background: #333;
+    color: #fff;
+    text-align: right;
+}
+.subheader li{
+    display: inline-block;
+    padding: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.subheader li:hover{
+   background: #ccc;
+   transition: 0.6s;
+}
+.dropdown{
+    display: inline-block;
+}
